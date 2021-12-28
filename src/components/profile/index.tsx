@@ -8,11 +8,9 @@ const ProfileComponent = (props: { name: string; province: string; birthDay: str
             <div>
                 <p className={styles.description}>
                     {props.name}
-                </p>
-                <p className={styles.description}>
+                    <br />
                     {props.province}
-                </p>
-                <p className={styles.description}>
+                    <br />
                     {props.birthDay}
                 </p>
             </div>

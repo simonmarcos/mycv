@@ -19,7 +19,7 @@ const SocialNetworksComponent = (props: { description: string, image: SocialMedi
     return (
         <div className={styles.container}>
             <img alt={props.image} className={styles.img} src={validateIcons()} />
-            <div><p className={styles.description}>{props.description}</p></div>
+            <div className={styles.description}><a target="_blank" rel="socialMedia" href={props.description}>{props.description}</a></div>
         </div>
     );
 }

@@ -1,13 +1,27 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+    width: 70%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
 }
 
-.socialMedia {
+.columnLeft {
     grid-column: 1/1;
+}
+
+.columnRight {
+    grid-column: 2/2;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .separatorLine {
     width: 50%;
+}
+
+.works {
+    width: 80%;
+    margin: 0 auto;
 }

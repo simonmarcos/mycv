@@ -12,7 +12,9 @@ const CurriculumVitaeComponent = () => {
     const Works = (): JSX.Element => {
         return (
             <div className={styles.works}>
-                <hr className={styles.separatorLine} />
+                <hr className='' />
+                <p>EXPERICIENCIA</p>
+                <hr />
                 {worksResponse.data.map((work, index) => {
                     return <WorksComponent
                         key={`index ${index}`}
@@ -22,15 +24,14 @@ const CurriculumVitaeComponent = () => {
                     />
                 })
                 }
-                <hr className={styles.separatorLine} />
             </div>
         );
     }
 
     const MyProfile = (): JSX.Element => {
         return (
-            <div className={styles.socialMedia}>
-                <hr className={styles.separatorLine} />
+            <div className={styles.myProfile}>
+
                 <ProfileComponent
                     name='Simón Solá Marcos Eduardo'
                     province='San Miguel de Tucumán'
@@ -57,16 +58,21 @@ const CurriculumVitaeComponent = () => {
                     image='git'
                     description='https://github.com/simonmarcos'
                 />
-                <hr className={styles.separatorLine} />
             </div>
         );
     }
 
     return (
         <div className={styles.container}>
-            <MyProfile />
-            <SocialMedia />
-            <Works />
+            <div className={styles.columnLeft}>
+                <hr className={styles.separatorLine} />
+                <MyProfile />
+                <SocialMedia />
+                <hr className={styles.separatorLine} />
+            </div>
+            <div className={styles.columnRight}>
+                <Works />
+            </div>
         </div>
     );
 }

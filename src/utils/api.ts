@@ -7,6 +7,7 @@ export const axiosConfig = {
     baseURL: API_BASE_URL,
     headers: { 'x-app-id': 'APP' },
 };
+
 const axiosClientInstance = axios.create(axiosConfig);
 
 const fetchApiEffect = (path: string, method: Method) => {
