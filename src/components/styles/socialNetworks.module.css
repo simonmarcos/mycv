@@ -1,0 +1,10 @@
+.container {}
+
+.img {
+    width: 5%;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: bold;
+}
