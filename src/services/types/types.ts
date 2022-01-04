@@ -1,5 +1,5 @@
 export type WorksType = {
     title: string,
-    duration: string,
+    duration?: string,
     description: string
 }

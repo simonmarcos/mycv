@@ -17,6 +17,19 @@ const dataResponse: Array<WorksType> = [
         React JS con componentes funcionales y Hooks, Material UI, Axios. Git,
         Jira, Jenkins.
         `
+    },
+    {
+        title: 'RPA DEVELOPER - PRACTIA',
+        duration: 'Septiembre 2018 – Septiembre 2020',
+        description: `Experiencia en tareas de análisis, diseño y desarrollo en automatización de
+        procesos con la tecnología UIPath.
+        Entre los diversos proyectos se trabajó con: Base de datos Oracle,
+        interacciones son SAP, Excel, aplicaciones propias del cliente, manejo de
+        Orquestador, Api Rest, SSH.`
+    },
+    {
+        title: 'PROYECTOS INDEPENDIENTES',
+        description: "Sistema de escritorio desarrollado en JAVA y MYSQL para la gestión de clientes, empleados y ganancias con sistema de reportes e informes para una Barbería. Sistema de escritorio desarrollado en JAVA y MYSQL para la gestión de los empleados para una PIME de marketing promocional"
     }
 ]
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/works.module.css';
 
-const WorksComponent = (props: { title: string; duration: string; description: string }) => {
+const WorksComponent = (props: { title: string; duration?: string; description: string }) => {
 
     return (
         <div className={styles.container}>

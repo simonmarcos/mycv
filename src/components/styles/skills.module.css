@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    width: min-content;
+}
+
+.container ul li {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding: 2px;
+}

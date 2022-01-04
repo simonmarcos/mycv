@@ -1,13 +1,18 @@
 .container {
+    border: solid 1px;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    width: 70%;
-    margin: 0 auto;
-    background-color: blanchedalmond;
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(238, 239, 236);
+    max-width: 1200px;
 }
 
 .columnLeft {
+    background-color: rgb(62, 164, 173);
+    border-radius: 10px 0px 0px 10px;
     grid-column: 1/1;
 }
 
@@ -22,6 +27,21 @@
 }
 
 .works {
-    width: 80%;
+    padding: 0px 10px;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-color: rgb(238, 239, 236);
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .columnLeft {
+        background-color: rgb(62, 164, 173);
+        border-radius: 0px;
+    }
 }

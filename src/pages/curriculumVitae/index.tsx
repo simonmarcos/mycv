@@ -1,6 +1,4 @@
-import React from 'react';
 import CurriculumVitaeComponent from '../../components/curriculumVitae';
-
 
 const CurriculumVitae = () => {
 
